@@ -15,3 +15,7 @@ def normalize(name: str) -> str:
     t_name = name.translate(TRANS)
     t_name = re.sub(r'\W', '_', t_name)
     return t_name
+
+
+if __name__ == '__main__':
+    pass
